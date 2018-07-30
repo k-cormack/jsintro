@@ -1,4 +1,3 @@
-/*
 // var me = {
 //     name: 'Jake',
 //     age: 32,
@@ -33,10 +32,72 @@
 
 // var template = `
 //     hello my name is ${bestFriend.name}
-//     I am $${bestFriend.age}
+//     I am ${bestFriend.age}
 // `
 
 // console.log(template)
+
+let keithFamily = {
+    me:{
+        firstName: "Keith",
+        middleName: "Ian",
+        age: 46
+    },
+    father:{
+        firstName: "Peter",
+        middleName: "Hewitt",
+        age: 78
+    },
+    mother:{
+        firstName: "Karen",
+        middleName: "Lee",
+        age: 71
+    },
+    spouse:{
+        firstName: "Christina",
+        middleName: "Marie",
+        age: 34
+    },
+    children:[
+        {
+            firstName: "Rebecca",
+            middleName: "Anne",
+            age: 14,
+            hairColor: "brown" 
+        },
+        {
+            firstName: "James",
+            middleName: "Thomas",
+            age: 11,
+            hairColor: "brown"
+        },
+        {
+            firstName: "Mila",
+            middleName: "Elise",
+            age: 4,
+            hairColor: "blonde"
+        },
+        {
+            firstName: "Eliana",
+            middleName: "Piper",
+            age: 2,
+            hairColor: "blonde",
+        },
+        {
+            firstName: "Riley",
+            middleName: "Elizabeth",
+            age: 1,
+            hairColor: "light brown",
+            
+        }  
+
+    ],
+
+}
+
+let testSentence = `Hi! My name is ${keithFamily.me.firstName}.`
+
+console.log(testSentence)
 
 
 // console.log(me.age)
@@ -122,49 +183,48 @@
 
 
 
-var manufacturers = {
-    toyota: {
-        name: "toyota",
-        address: "1234 cool street",
-        phone: 208-905-0000
-    },
-    chevrolet: {
-        name: "Chevrolet",
-        address: "4321 supercool street",
-        phone: 208-888-8888
-    }
-}
+// var manufacturers = {
+//     toyota: {
+//         name: "toyota",
+//         address: "1234 cool street",
+//         phone: 208-905-0000
+//     },
+//     chevrolet: {
+//         name: "Chevrolet",
+//         address: "4321 supercool street",
+//         phone: 208-888-8888
+//     }
+// }
 
-var car1 = {
-    numWheels: 4,
-    engine: {
-        cylinders: 8,
-        fuelTypes: ["gas", "diesel"],
-        turbo: true
-    },
-    color: "Red",
-    doors: 4,
-    manufacturer: {
-        name: "toyota",
-        address: "1234 cool street",
-        phone: 208-905-0000
-    }
-}
+// var car1 = {
+//     numWheels: 4,
+//     engine: {
+//         cylinders: 8,
+//         fuelTypes: ["gas", "diesel"],
+//         turbo: true
+//     },
+//     color: "Red",
+//     doors: 4,
+//     manufacturer: {
+//         name: "toyota",
+//         address: "1234 cool street",
+//         phone: 208-905-0000
+//     }
+// }
 
-var car2 = {
-    numWheels: 4,
-    engine: {
-        cylinders: 8,
-        fuelTypes: ["gas", "diesel"],
-        turbo: true
-    },
-    color: "Red",
-    doors: 4,
-    manufacturer: manufacturers.toyota
-}
+// var car2 = {
+//     numWheels: 4,
+//     engine: {
+//         cylinders: 8,
+//         fuelTypes: ["gas", "diesel"],
+//         turbo: true
+//     },
+//     color: "Red",
+//     doors: 4,
+//     manufacturer: manufacturers.toyota
+// }
 
 
 
-console.log(car1.manufacturer.name)
-console.log(car2.manufacturer.name)
-*/
+// console.log(car1.manufacturer.name)
+// console.log(car2.manufacturer.name)
