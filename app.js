@@ -37,67 +37,67 @@
 
 // console.log(template)
 
-let keithFamily = {
-    me:{
-        firstName: "Keith",
-        middleName: "Ian",
-        age: 46
-    },
-    father:{
-        firstName: "Peter",
-        middleName: "Hewitt",
-        age: 78
-    },
-    mother:{
-        firstName: "Karen",
-        middleName: "Lee",
-        age: 71
-    },
-    spouse:{
-        firstName: "Christina",
-        middleName: "Marie",
-        age: 34
-    },
-    children:[
-        {
-            firstName: "Rebecca",
-            middleName: "Anne",
-            age: 14,
-            hairColor: "brown" 
-        },
-        {
-            firstName: "James",
-            middleName: "Thomas",
-            age: 11,
-            hairColor: "brown"
-        },
-        {
-            firstName: "Mila",
-            middleName: "Elise",
-            age: 4,
-            hairColor: "blonde"
-        },
-        {
-            firstName: "Eliana",
-            middleName: "Piper",
-            age: 2,
-            hairColor: "blonde",
-        },
-        {
-            firstName: "Riley",
-            middleName: "Elizabeth",
-            age: 1,
-            hairColor: "light brown",
-            
-        }  
+// let keithFamily = {
+//     me:{
+//         firstName: "Keith",
+//         middleName: "Ian",
+//         age: 46
+//     },
+//     father:{
+//         firstName: "Peter",
+//         middleName: "Hewitt",
+//         age: 78
+//     },
+//     mother:{
+//         firstName: "Karen",
+//         middleName: "Lee",
+//         age: 71
+//     },
+//     spouse:{
+//         firstName: "Christina",
+//         middleName: "Marie",
+//         age: 34
+//     },
+//     children:[
+//         {
+//             firstName: "Rebecca",
+//             middleName: "Anne",
+//             age: 14,
+//             hairColor: "brown" 
+//         },
+//         {
+//             firstName: "James",
+//             middleName: "Thomas",
+//             age: 11,
+//             hairColor: "brown"
+//         },
+//         {
+//             firstName: "Mila",
+//             middleName: "Elise",
+//             age: 4,
+//             hairColor: "blonde"
+//         },
+//         {
+//             firstName: "Eliana",
+//             middleName: "Piper",
+//             age: 2,
+//             hairColor: "blonde",
+//         },
+//         {
+//             firstName: "Riley",
+//             middleName: "Elizabeth",
+//             age: 1,
+//             hairColor: "light brown",
 
-    ],
+//         }  
 
-}
+//     ],
 
-let testSentence = `Hi! My name is ${keithFamily.me.firstName}.`
+// }
 
-console.log(testSentence)
+// let testSentence = `Hi! My name is ${keithFamily.me.firstName}.`
+
+// console.log(testSentence)
 
 
 // console.log(me.age)
@@ -228,3 +228,61 @@ console.log(testSentence)
 
 // console.log(car1.manufacturer.name)
 // console.log(car2.manufacturer.name)
+
+
+// let cupCoffee = {
+//     cardboardCup: {
+//         color: "white",
+//         material: "paper",
+//         shape: "cylindrical",
+//         heightInches: 5,
+//         volumeOzs: 8
+//     },
+//     coffeeBeverage: {
+//         material: "water",
+//         color: "dark brown",
+//         shape: "fluid",
+//         taste: "bitter",
+//         volumeOzs: 7
+//     },
+// }
+
+
+// console.log(cupCoffee.cardboardCup.shape)
+
+
+//--------------------------------------------
+
+
+function rentCostByCity(city) {
+    // if (city == "boise") {
+    //     return 1000
+    // } else if (city == "san francisco") {
+    //     return 10000
+    // } else if (city == "st paul") {
+    //     return 850
+    // } else if (city == "denver") {
+    //     return 95
+    // }
+
+    // let rent = 0;
+    // switch(city){
+    //     case "boise":
+    //     rent = 1000
+    //     break;
+    //     case "san francisco":
+    //     rent = 90000
+    //     break;
+    // }
+
+    let cities = {
+        boise: 1000,
+        "san francisco": 34823,
+        seattle: 1900,
+        denver: 860
+    }
+
+    // cities[boise]
+
+    return cities[boise]
+}
